@@ -48,12 +48,6 @@ map-cluster: false # true/false, suggested for large collection or with many ite
 map-cluster-radius: 10 # size of clusters, from ~ 10 to 80
 
 ##########
-# TIMELINE PAGE
-#
-year-navigation: #"" # set years to appear in dropdown nav, leave blank to auto gen
-year-nav-increment: 5 # set increments when auto gen nav years
-
-##########
 # DATA 
 #
 # add metadata fields for export in data downloads (tip: paste in first row of csv)
