@@ -20,12 +20,12 @@ source-code: https://github.com/CollectionBuilder/collectionbuilder-gh
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: Madison's Digital Libraries site
+title: Voices of Pawpaws and Persimmons
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: a simple digital exhibit
+tagline: a gathering spot for those interested in native foodways
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "once I add data, this site will serve as a digital repository for something cool"
+description: "a digital archive of oral histories and objects pertaining to pawpaws and persimmons"
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: CollectionBuilder
 
