@@ -23,8 +23,3 @@ This collection was built for those who are interested in learning about the dif
 ## About the creator
 
 This digital archive was created by Madison Cissell, a graduate student studying folklore and library science at Indiana University. Feel free to contact Madison at madciss@iu.edu with any comments or suggestions about the archive. 
-
-
-
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
