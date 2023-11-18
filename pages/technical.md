@@ -17,15 +17,14 @@ Although pawpaws and persimmons are known colloquially throughout southern India
 ## Required CollectionBuilder elements
 
 ### Objectid
-<ul> 
- <li> Cardinality: 1 entry per record </li>
+<ul>
+	<li> Cardinality: 1 entry per record </li>
 	<li> Obligation: Mandatory </li> 
+	<li> Content guidelines: Entry should start with the name of the interviewer, followed by the type of file in parentheses. If there are multiple objects, the number assigned to the object will follow the object. The file extension should follow the naming convention. </li>
+	<li> Applicable controlled vocabularies: N/A </li>
+	<li> Mapping to Dublin Core: “Identifier” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/identifier/ </li>
+	<li> Example: Darren Bender-Beauregard’s interview would be entered as “Darren_Bender-Beauregard_interview”. Darren’s second object would be entered as “Darren_Bender-Beauregard_object_2” </li>
 </ul>
-	Content guidelines: Entry should start with the name of the interviewer, followed by the type of file in parentheses. If there are multiple objects, the number assigned to the object will follow the object. The file extension should follow the naming convention. 
-	Applicable controlled vocabularies: N/A
-	Mapping to Dublin Core: “Identifier” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/identifier/
-	Example: Darren Bender-Beauregard’s interview would be entered as “Darren_Bender-Beauregard_interview”. Darren’s second object would be entered as “Darren_Bender-Beauregard_object_2”
-
 
 ### Filename
 	Cardinality: 1 entry per record
