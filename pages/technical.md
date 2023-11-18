@@ -51,8 +51,7 @@ Although pawpaws and persimmons are known colloquially throughout southern India
 <li> Cardinality: 1 entry per record </li>
 <li> Obligation: Mandatory </li>
 <li> Content guidelines: This field indicates the item’s media type, which will vary depending on if it is an interview, transcript, or image. Format will follow a controlled vocabulary, which will utilize a list of Internet Media Types provided by Dublin Core. </li>
-<li> Applicable controlled vocabularies: Internet Media Types (MIME) </li>
-<li> Common values for this collection will be: audio/mp3; image/jpg, or application/pdf. </li>
+<li> Applicable controlled vocabularies: Internet Media Types (MIME). Common values for this collection will be: audio/mp3; image/jpg, or application/pdf. </li>
 <li> Mapping to Dublin Core: “Format” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/format/ </li>
 <li> Example: audio/mp3 </li>
 </ul>
@@ -143,107 +142,114 @@ Although pawpaws and persimmons are known colloquially throughout southern India
 <th> Dublin Core Link </th>
 <th> Example </th>
 </tr> 
+<tr>
 <td> Objectid </td>
+<td> 1 entry per record </td>
+<td> Mandatory </td>
+<td> Entry should start with the name of the interviewer, followed by the type of file in parentheses. If there are multiple objects, the number assigned to the object will follow the object. The file extension should follow the naming convention. 
+<td> N/A </td>
+<td> "Identifier"	</td>
+<td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/identifier/	</td>
+<td> Darren Bender-Beauregard’s interview would be entered as “Darren_Bender-Beauregard_interview”. Darren’s second object would be entered as “Darren_Bender-Beauregard_object_2” </td>
+</tr>
+<tr>
 <td> Filename </td>
-<td> Title </td>
-<td> Format </td>
-<td> Subject </td>
-<td> Latitude </td>
-<td> Longitude </td>
-<td> Location </td>
-<td> Description </td>
-<td> Interviewee </td>
-<td> Interviewer </td> 	
-</tr>
-<tr>
-<td> 1 entry per record </td>
-<td> 1 entry per record </td>
-<td> 1 entry per record </td>
-<td> 1 entry per record </td>
-<td> Up to 10 entries per record </td>
-<td> 1 entry per record </td>
-<td> 1 entry per record </td>
-<td> 1 entry per record </td>
-<td> 1 entry per record </td>
-<td> 1 entry per record </td>
-<td> 1 entry per record </td>
-</tr>
-<tr>
-<td> Mandatory </td>
-<td> Mandatory </td>
-<td> Mandatory </td>
-<td> Mandatory </td>
-<td> Mandatory </td>
-<td> Mandatory </td>
-<td> Mandatory </td>
-<td> Mandatory </td>
-<td> Optional </td>
-<td> Mandatory </td>
-<td> Mandatory </td>
-</tr>
-<tr> 
-<td> Entry should start with the identifier of either I (for interview), TS (for transcript), or IMG (for image) followed by a YYYY-MM-DD_ 000 format, with the last 3 digits indicating successive number of the interview (in case multiple interviews are acquired in one day, and to denote the several images of objects). </td>
-<td> The value must exactly match the actual filename of the file in the “objects” directory. </td>
-<td> Entry should be the interviewee’s name unless partial or full anonymity is requested. </td>
-<td> This field indicates the item’s media type, which will vary depending on if it is an interview, transcript, or image. Format should follow controlled vocabulary where available. Can use the list of Internet Media Types provided by Dublin Core. </td>
-<td> These entries will be topics related to the item. This field allows for multiple subjects (up to 10), each should be separated by a semicolon (;). Subject entries should be selected using the Library of Congress subject headings. </td>
-<td> A geographic coordinate of the interview location specified by the north-south position of the interview site. </td>
-<td> A geographic coordinate of the interview location specified by the east-west position of the interview site. </td>
-<td> The name of the city or town of the interview location, followed by the federally recognized two-letter state and territory abbreviation. </td>
-<td> This field should be a brief summary/synopsis of the interview in 3-5 sentences. It should cover major points of the interview. </td>
-<td> This should be the interviewee’s full or preferred name. </td>
-<td> This should be the interviewer’s full or preferred name. </td>
-</tr>
-<tr>
+<td> 1 entry per record	</td>
+<td> Mandatory	</td>
+<td> The value must exactly match the actual filename of the file in the “objects” directory	</td>
 <td> N/A </td>
-<td> N/A </td>
-<td> N/A </td>
-<td> Internet Media Types (MIME). Common values for this collection will be: audio/mp3; image/jpg, or application/pdf. </td>
-<td> Library of Congress subject headings </td>
-<td> N/A </td>
-<td> N/A </td>
-<td> N/A </td>
-<td> N/A </td>
-<td> N/A </td>
-<td> N/A </td>
-</tr>
-<tr> 
 <td> "Identifier" </td>
-<td> "Identifier" </td>
-<td> "Title" </td>
-<td> "Format" </td>
-<td> "Subject" </td>
-<td> “Location, Period, or Jurisdiction” </td>
-<td> “Location, Period, or Jurisdiction” </td>
-<td> “Location, Period, or Jurisdiction” </td>
-<td> "Description" </td>
-<td> "Contributor" </td>
-<td> "Creator" </td>
+<td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/identifier/ </td>
+<td> “Darren_Bender-Beauregard_interview.mp3” for Darren’s interview referenced above. </td> 
 </tr>
 <tr>
-<td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/identifier/ </td>
-<td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/identifier/ </td>
-<td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/title/ </td>
-<td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/format/ </td>
-<td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/subject/ </td>
-<td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/LocationPeriodOrJurisdiction/ </td>
-<td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/LocationPeriodOrJurisdiction/ </td>
-<td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/LocationPeriodOrJurisdiction/ </td>
-<td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/description/ </td>
-<td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/contributor/ </td>
-<td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/creator/ </td>	
-</tr>
-<tr> 
-<td> Darren Bender-Beauregard’s interview would be entered as “Darren_Bender-Beauregard_interview”. Darren’s second object would be entered as “Darren_Bender-Beauregard_object_2”. </td>
-<td> “Darren_Bender-Beauregard_interview.mp3” for Darren’s interview referenced above. </td>
-<td> Darren Bender-Beauregard. </td>
-<td> audio/mp3 </td> 
-<td> pawpaws; persimmons; grafting; Mennonite; network; knife; cellphone; homestead; farm; Indiana. </td>
-<td> 38.5562 </td>
-<td> -86.4683 </td>
-<td> Paoli, IN </td>
-<td> An oral history interview with Darren Bender-Beauregard at Brambleberry Farms, Paoli, Indiana. Darren Bender-Beauregard provides a background on growing up Mennonite on the East Coast before attending Goshen College. He now resides in Paoli, Indiana on Brambleberry Farm, where is family has a homestead and sells pawpaw and persimmon seedlings. Darren describes his knowledge of pawpaws and persimmons, the grafting process, and his agricultural network. </td>
+<td> Title	</td>
+<td> 1 entry per record </td>
+<td> Mandatory	Entry should be the interviewee’s name unless partial or full anonymity is requested. </td>
+<td> N/A	</td>
+<td> "Title"	</td>
+<td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/title/	</td>
 <td> Darren Bender-Beauregard </td>
-<td> Madison Cissell </td>
+</tr>
+<tr> 
+<td> Format	</td>
+<td> 1 entry per record	</td>
+<td> Mandatory	</td>
+<td> This field indicates the item’s media type, which will vary depending on if it is an interview, transcript, or image. </td>
+<td> Format should follow controlled vocabulary where available. Can use the list of Internet Media Types provided by Dublin Core.	</td>
+<td> Internet Media Types (MIME). Common values for this collection will be: audio/mp3; image/jpg, or application/pdf. </td>
+<td> "Format"	</td>
+<td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/format/ </td>
+<td> audio/mp3 </td>
+</tr>
+<tr> 
+<td> Subject </td>
+<td> Up to 10 entries per record </td>
+<td> Mandatory	</td>
+<td> These entries will be topics related to the item. This field allows for multiple subjects (up to 10), each should be separated by a semicolon (;). Subject entries should be selected using the Library of Congress subject headings. </td>
+<td> Library of Congress subject headings	</td>
+<td> "Subject" </td>
+<td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/subject/ </td>
+<td> pawpaws; persimmons; grafting; Mennonite; network; knife; cellphone; homestead; farm; Indiana. </td>
+</tr>
+<tr> 
+<td> Latitude	</td>
+<td> 1 entry per record	</td>
+<td> Mandatory	</td>
+<td> A geographic coordinate of the interview location specified by the north-south position of the interview site. </td>
+<td> N/A	</td>
+<td> “Location, Period, or Jurisdiction”	</td>
+<td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/LocationPeriodOrJurisdiction/	</td>
+<td> 38.5562 </td>
+</tr>
+<tr> 
+<td> Longitude	</td>
+<td> 1 entry per record </td>
+<td> Mandatory </td>
+<td> A geographic coordinate of the interview location specified by the east-west position of the interview site. </td>
+<td> N/A	</td>
+<td> “Location, Period, or Jurisdiction”	</td>
+<td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/LocationPeriodOrJurisdiction/	</td>
+<td> 86.4683 </td>
+</tr>
+<tr>
+<td> Location	</td>
+<td> 1 entry per record </td>
+<td> Mandatory	</td>
+<td>The name of the city or town of the interview location, followed by the federally recognized two-letter state and territory abbreviation.	</td>
+<td> N/A	</td>
+<td> “Location, Period, or Jurisdiction” </td>
+<td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/LocationPeriodOrJurisdiction/	</td>
+<td> Paoli, IN </td>
+</tr>
+<tr>
+<td> Description </td>	
+<td> 1 entry per record	</td>
+<td> Optional	</td>
+<td> This field should be a brief summary/synopsis of the interview in 3-5 sentences. It should cover major points of the interview. </td>
+<td> N/A	</td>
+<td> "Description"	</td>
+<td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/description/	</td>
+<td> Darren Bender-Beauregard provides a background on growing up Mennonite on the East Coast before attending Goshen College. He now resides in Paoli, Indiana on Brambleberry Farm, where is family has a homestead and sells pawpaw and persimmon seedlings. Darren describes his knowledge of pawpaws and persimmons, the grafting process, and his agricultural network. </td>
+</tr>
+<tr> 
+<td> Interviewee	</td>
+<td> 1 entry per record </td>
+<td> Optional, but should be used for interview and transcript records.	</td> 
+<td> This should be the interviewee’s full or preferred name.	</td>
+<td> N/A	</td>
+<td> "Contributor"	</td>
+<td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/contributor/	</td>
+<td> Darren Bender-Beauregard </td>
+</tr>
+<tr>
+<td> Interviewer	</td>
+<td> 1 entry per record	</td>
+<td> Optional, but should be used for interview and transcript records. </td>	
+<td> This should be the interviewer’s full or preferred name. </td>	
+<td> N/A	</td>
+<td> "Creator"	</td>
+<td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/creator/ </td>
+ <td> Madison Cissell </td>
 </tr>
 </table>
