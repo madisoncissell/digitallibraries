@@ -18,87 +18,232 @@ Although pawpaws and persimmons are known colloquially throughout southern India
 
 ### Objectid
 <ul>
-	<li> Cardinality: 1 entry per record </li>
-	<li> Obligation: Mandatory </li> 
-	<li> Content guidelines: Entry should start with the name of the interviewer, followed by the type of file in parentheses. If there are multiple objects, the number assigned to the object will follow the object. The file extension should follow the naming convention. </li>
-	<li> Applicable controlled vocabularies: N/A </li>
-	<li> Mapping to Dublin Core: “Identifier” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/identifier/ </li>
-	<li> Example: Darren Bender-Beauregard’s interview would be entered as “Darren_Bender-Beauregard_interview”. Darren’s second object would be entered as “Darren_Bender-Beauregard_object_2” </li>
+<li> Cardinality: 1 entry per record </li>
+<li> Obligation: Mandatory </li> 
+<li> Content guidelines: Entry should start with the name of the interviewer, followed by the type of file in parentheses. If there are multiple objects, the number assigned to the object will follow the object. The file extension should follow the naming convention. </li>
+<li> Applicable controlled vocabularies: N/A </li>
+<li> Mapping to Dublin Core: “Identifier” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/identifier/ </li>
+<li> Example: Darren Bender-Beauregard’s interview would be entered as “Darren_Bender-Beauregard_interview”. Darren’s second object would be entered as “Darren_Bender-Beauregard_object_2”. </li>
 </ul>
 
 ### Filename
-	Cardinality: 1 entry per record
-	Obligation: Mandatory
-	Content guidelines: The value must exactly match the actual filename of the file in the “objects” directory with the appropriate file extension given the format of the file. 
-	Applicable controlled vocabularies: N/A
-	Mapping to Dublin Core: “Identifier” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/identifier/
-	Example: “Darren_Bender-Beauregard_interview.mp3” for Darren’s interview referenced above. 
+<ul> 
+<li> Cardinality: 1 entry per record </li>
+<li> Obligation: Mandatory </li>
+<li> Content guidelines: The value must exactly match the actual filename of the file in the “objects” directory with the appropriate file extension given the format of the file.  </li>
+<li> Applicable controlled vocabularies: N/A </li>
+<li> Mapping to Dublin Core: “Identifier” 	https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/identifier/
+<li> Example: “Darren_Bender-Beauregard_interview.mp3” for Darren’s interview referenced above. </li>
+</ul>
 
 ### Title
-	Cardinality: 1 entry per record
-	Obligation: Mandatory
-	Content guidelines: Entry should be the interviewee’s name unless partial or full anonymity is requested.
-	Applicable controlled vocabularies: N/A
-	Mapping to Dublin Core: “Title” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/title/
-	Example: Darren Bender-Beauregard interview
+<ul> 
+<li> Cardinality: 1 entry per record </li>
+<li> Obligation: Mandatory </li>
+<li> Content guidelines: Entry should be the interviewee’s name unless partial or full anonymity is requested. </li>
+<li> Applicable controlled vocabularies: N/A </li>
+<li> Mapping to Dublin Core: “Title” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/title/ </li>
+<li> Example: Darren Bender-Beauregard interview </li>
+</ul>
 
 ### Format 
-	Cardinality: 1 entry per record
-	Obligation: Mandatory
-	Content guidelines: This field indicates the item’s media type, which will vary depending on if it is an interview, transcript, or image. Format should follow controlled vocabulary where available. Can use the list of Internet Media Types provided by Dublin Core. 
-	Applicable controlled vocabularies: Internet Media Types (MIME)
-•	Common values for this collection will be: audio/mp3; image/jpg, or application/pdf. 
-	Mapping to Dublin Core: “Format” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/format/
-	Example: audio/mp3 
+<ul> 
+<li> Cardinality: 1 entry per record </li>
+<li> Obligation: Mandatory </li>
+<li> Content guidelines: This field indicates the item’s media type, which will vary depending on if it is an interview, transcript, or image. Format will follow a controlled vocabulary, which will utilize a list of Internet Media Types provided by Dublin Core. </li>
+<li> Applicable controlled vocabularies: Internet Media Types (MIME) </li>
+<li> Common values for this collection will be: audio/mp3; image/jpg, or application/pdf. </li>
+<li> Mapping to Dublin Core: “Format” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/format/ </li>
+<li> Example: audio/mp3 </li>
+</ul>
 
 ## CollectionBuilder visualization elements
 
 #### Subjects (subject)
-	Cardinality: Up to 10 entries per record.
-	Obligation: Mandatory 
-	Content guidelines: These entries will be topics related to the item. This field allows for multiple subjects (up to 10), each should be separated by a semicolon (;). Subject entries should be selected using the Library of Congress subject headings. 
-	Applicable controlled vocabularies: Library of Congress subject headings
-	Mapping to Dublin Core: “Subject” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/subject/
-	Example: pawpaws; persimmons; grafting; mennonite; network; knife; cellphone; homestead; farm; indiana. 
+<ul>	
+<li> Cardinality: Up to 10 entries per record. </li>
+<li> Obligation: Mandatory </li>
+<li> Content guidelines: These entries will be topics related to the item. This field allows for multiple subjects (up to 10), each should be separated by a semicolon (;). Subject entries should be selected using the Library of Congress subject headings, which is a controlled vocabulary. </li>
+<li> Applicable controlled vocabularies: Library of Congress subject headings </li>
+<li> Mapping to Dublin Core: “Subject” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/subject/ </li>
+<li> Example: pawpaws; persimmons; grafting; mennonite; network; knife; cellphone; homestead; farm; indiana. </li>
+ </ul>
  
 ### Map (latitude)
-	Cardinality: 1 entry per record
-	Obligation: Mandatory
-	Content guidelines: A geographic coordinate of the interview location specified by the north-south position of the interview site. 
-	Applicable controlled vocabularies: N/A
-	Mapping to Dublin Core: “Location, Period, or Jurisdiction” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/LocationPeriodOrJurisdiction/
-	Example: 38.5562
+<ul>	
+<li> Cardinality: 1 entry per record </li>
+<li> Obligation: Mandatory  </li>
+<li> Content guidelines: A geographic coordinate of the interview location specified by the north-south position of the interview site. </li>
+<li> Applicable controlled vocabularies: N/A </li>	
+<li> Mapping to Dublin Core: “Location, Period, or Jurisdiction” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/LocationPeriodOrJurisdiction/  </li>
+<li> Example: 38.5562 </li>
+</ul>
+
+### Location
+<ul>
+<li> Cardinality: 1 entry per record </li>
+<li> Obligation: Mandatory </li>
+<li> Content guidelines: The name of the city or town of the interview location, followed by the federally recognized two-letter state and territory abbreviation. </li>
+<li> Applicable controlled vocabularies: N/A </li>
+<li> Mapping to Dublin Core: “Location, Period, or Jurisdiction” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/LocationPeriodOrJurisdiction/ </li>
+<li> Example: Paoli, IN </li>
+</ul>
 
 ### Map (longitude)
-	Cardinality: 1 entry per record
-	Obligation: Mandatory
-	Content guidelines: A geographic coordinate of the interview location specified by the east-west position of the interview site.
-	Applicable controlled vocabularies: N/A
-	Mapping to Dublin Core: “Location, Period, or Jurisdiction” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/LocationPeriodOrJurisdiction/
-	Example: -86.4683
+<ul>
+<li> Cardinality: 1 entry per record </li>
+<li> Obligation: Mandatory </li>
+<li> Content guidelines: A geographic coordinate of the interview location specified by the east-west position of the interview site. </li>
+<li> Applicable controlled vocabularies: N/A </li>
+<li> Mapping to Dublin Core: “Location, Period, or Jurisdiction” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/LocationPeriodOrJurisdiction/ </li>
+<li> Example: -86.4683  </li>
+</ul>
 
 ## Optional CollectionBuilder elements
 
 ### Description (Synopsis):
-	Cardinality: 1 entry per record
-	Obligation: Optional
-	Content guidelines: This field should be a brief summary/synopsis of the interview in 3-5 sentences. It should cover major points of the interview. If being used for an object, it should briefly describe the object and its significance. 
-	Applicable controlled vocabularies: N/A
-	Mapping to Dublin Core: “Description” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/description/
-Example: Darren Bender-Beauregard provides a background on growing up Mennonite on the East Coast before attending Goshen College. He now resides in Paoli, Indiana on Brambleberry Farm, where is family has a homestead and sells pawpaw and persimmon seedlings. Darren describes his knowledge of pawpaws and persimmons, the grafting process, and his agricultural network. 
+<ul>	
+<li> Cardinality: 1 entry per record </li>
+<li> Obligation: Optional </li>
+<li> Content guidelines: This field should be a brief summary/synopsis of the interview in 3-5 sentences. It should cover major points of the interview. If being used for an object, it should briefly describe the object and its significance. </li>
+<li> Applicable controlled vocabularies: N/A </li>
+<li> Mapping to Dublin Core: “Description” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/description/ </li>
+<li> Example: Darren Bender-Beauregard provides a background on growing up Mennonite on the East Coast before attending Goshen College. He now resides in Paoli, Indiana on Brambleberry Farm, where is family has a homestead and sells pawpaw and persimmon seedlings. Darren describes his knowledge of pawpaws and persimmons, the grafting process, and his agricultural network. </li>
+</ul>
 
 ### Interviewee: 
-	Cardinality: 1 entry per record
-	Obligation: Optional, but should be used for interview and transcript records.
-	Content guidelines: This should be the interviewee’s full or preferred name.
-	Applicable controlled vocabularies: N/A
-	Mapping to Dublin Core: “Contributor” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/contributor/
-	Example: Darren Bender-Beauregard 
+<ul> 
+<li> Cardinality: 1 entry per record </li>
+<li> Obligation: Optional, but should be used for interview and transcript records. </li>
+<li> Content guidelines: This should be the interviewee’s full or preferred name.  </li>
+<li> Applicable controlled vocabularies: N/A </li>
+<li> Mapping to Dublin Core: “Contributor” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/contributor/ </li>
+<li> Example: Darren Bender-Beauregard </li>
+</ul>
 
 ### Interviewer:
-	Cardinality: 1 entry per record
-	Obligation: Optional, but should be used for interview and transcript records
-	Content guidelines: This should be the interviewer’s full or preferred name.
-	Applicable controlled vocabularies: N/A
-	Mapping to Dublin Core: “Creator” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/creator/
-	Example: Madison Cissell
+<ul> 
+<li> Cardinality: 1 entry per record </li>
+<li> Obligation: Optional, but should be used for interview and transcript records. </li>
+<li> Content guidelines: This should be the interviewer’s full or preferred name. </li>
+<li> Applicable controlled vocabularies: N/A  </li>
+<li> Mapping to Dublin Core: “Creator” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/creator/ </li>
+<li> Example: Madison Cissell </li>
+</ul>
+
+## Documentation of all elements
+<table>
+<tr>
+<th> Metadata Element </th>
+<th> Cardinality </th>
+<th> Obligation	</th>
+<th> Content Guidelines </th>
+<th> Applicable Controlled Vocabularies  </th>
+<th> Mapping to Dublin Core  </th>
+<th> Dublin Core Link </th>
+<th> Example </th>
+</tr> 
+<td> Objectid </td>
+<td> Filename </td>
+<td> Title </td>
+<td> Format </td>
+<td> Subject </td>
+<td> Latitude </td>
+<td> Longitude </td>
+<td> Location </td>
+<td> Description </td>
+<td> Interviewee </td>
+<td> Interviewer </td> 	
+</tr>
+<tr>
+<td> 1 entry per record </td>
+<td> 1 entry per record </td>
+<td> 1 entry per record </td>
+<td> 1 entry per record </td>
+<td> Up to 10 entries per record </td>
+<td> 1 entry per record </td>
+<td> 1 entry per record </td>
+<td> 1 entry per record </td>
+<td> 1 entry per record </td>
+<td> 1 entry per record </td>
+<td> 1 entry per record </td>
+</tr>
+<tr>
+<td> Mandatory </td>
+<td> Mandatory </td>
+<td> Mandatory </td>
+<td> Mandatory </td>
+<td> Mandatory </td>
+<td> Mandatory </td>
+<td> Mandatory </td>
+<td> Mandatory </td>
+<td> Optional </td>
+<td> Mandatory </td>
+<td> Mandatory </td>
+</tr>
+<tr> 
+<td> Entry should start with the identifier of either I (for interview), TS (for transcript), or IMG (for image) followed by a YYYY-MM-DD_ 000 format, with the last 3 digits indicating successive number of the interview (in case multiple interviews are acquired in one day, and to denote the several images of objects). </td>
+<td> The value must exactly match the actual filename of the file in the “objects” directory. </td>
+<td> Entry should be the interviewee’s name unless partial or full anonymity is requested. </td>
+<td> This field indicates the item’s media type, which will vary depending on if it is an interview, transcript, or image. Format should follow controlled vocabulary where available. Can use the list of Internet Media Types provided by Dublin Core. </td>
+<td> These entries will be topics related to the item. This field allows for multiple subjects (up to 10), each should be separated by a semicolon (;). Subject entries should be selected using the Library of Congress subject headings. </td>
+<td> A geographic coordinate of the interview location specified by the north-south position of the interview site. </td>
+<td> A geographic coordinate of the interview location specified by the east-west position of the interview site. </td>
+<td> The name of the city or town of the interview location, followed by the federally recognized two-letter state and territory abbreviation. </td>
+<td> This field should be a brief summary/synopsis of the interview in 3-5 sentences. It should cover major points of the interview. </td>
+<td> This should be the interviewee’s full or preferred name. </td>
+<td> This should be the interviewer’s full or preferred name. </td>
+</tr>
+<tr>
+<td> N/A </td>
+<td> N/A </td>
+<td> N/A </td>
+<td> Internet Media Types (MIME). Common values for this collection will be: audio/mp3; image/jpg, or application/pdf. </td>
+<td> Library of Congress subject headings </td>
+<td> N/A </td>
+<td> N/A </td>
+<td> N/A </td>
+<td> N/A </td>
+<td> N/A </td>
+<td> N/A </td>
+</tr>
+<tr> 
+<td> "Identifier" </td>
+<td> "Identifier" </td>
+<td> "Title" </td>
+<td> "Format" </td>
+<td> "Subject" </td>
+<td> “Location, Period, or Jurisdiction” </td>
+<td> “Location, Period, or Jurisdiction” </td>
+<td> “Location, Period, or Jurisdiction” </td>
+<td> "Description" </td>
+<td> "Contributor" </td>
+<td> "Creator" </td>
+</tr>
+<tr>
+<td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/identifier/ </td>
+<td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/identifier/ </td>
+<td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/title/ </td>
+<td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/format/ </td>
+<td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/subject/ </td>
+<td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/LocationPeriodOrJurisdiction/ </td>
+<td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/LocationPeriodOrJurisdiction/ </td>
+<td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/LocationPeriodOrJurisdiction/ </td>
+<td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/description/ </td>
+<td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/contributor/ </td>
+<td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/creator/ </td>	
+</tr>
+<tr> 
+<td> Darren Bender-Beauregard’s interview would be entered as “Darren_Bender-Beauregard_interview”. Darren’s second object would be entered as “Darren_Bender-Beauregard_object_2”. </td>
+<td> “Darren_Bender-Beauregard_interview.mp3” for Darren’s interview referenced above. </td>
+<td> Darren Bender-Beauregard. </td>
+<td> audio/mp3 </td> 
+<td> pawpaws; persimmons; grafting; Mennonite; network; knife; cellphone; homestead; farm; Indiana. </td>
+<td> 38.5562 </td>
+<td> -86.4683 </td>
+<td> Paoli, IN </td>
+<td> An oral history interview with Darren Bender-Beauregard at Brambleberry Farms, Paoli, Indiana. Darren Bender-Beauregard provides a background on growing up Mennonite on the East Coast before attending Goshen College. He now resides in Paoli, Indiana on Brambleberry Farm, where is family has a homestead and sells pawpaw and persimmon seedlings. Darren describes his knowledge of pawpaws and persimmons, the grafting process, and his agricultural network. </td>
+<td> Darren Bender-Beauregard </td>
+<td> Madison Cissell </td>
+</tr>
+</table>
