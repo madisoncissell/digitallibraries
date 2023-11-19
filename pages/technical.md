@@ -24,14 +24,17 @@ Although pawpaws and persimmons are known colloquially throughout southern India
 <li> Applicable controlled vocabularies: N/A </li>
 <li> Mapping to Dublin Core: “Identifier” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/identifier/ </li>
 <li> Example: Darren Bender-Beauregard’s interview would be entered as “Darren_Bender-Beauregard_interview”. Darren’s second object would be entered as “Darren_Bender-Beauregard_object_2”. </li>
+</ul>
 
 ### Filename 
+<ul>
 <li> Cardinality: 1 entry per record </li>
 <li> Obligation: Mandatory </li>
 <li> Content guidelines: The value must exactly match the actual filename of the file in the “objects” directory with the appropriate file extension given the format of the file.  </li>
 <li> Applicable controlled vocabularies: N/A </li>
 <li> Mapping to Dublin Core: “Identifier” 	https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/identifier/
 <li> Example: “Darren_Bender-Beauregard_interview.mp3” for Darren’s interview referenced above. </li>
+</ul>
 
 ### Title
 <li> Cardinality: 1 entry per record </li>
@@ -107,8 +110,7 @@ Although pawpaws and persimmons are known colloquially throughout southern India
 <li> Content guidelines: This should be the interviewer’s full or preferred name. </li>
 <li> Applicable controlled vocabularies: N/A  </li>
 <li> Mapping to Dublin Core: “Creator” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/creator/ </li>
-<li> Example: Madison Cissell </li>
-</ul> 
+<li> Example: Madison Cissell </li> 
 
 ## Documentation of all elements
 <table>
