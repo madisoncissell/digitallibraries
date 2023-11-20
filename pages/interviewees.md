@@ -1,5 +1,5 @@
 ---
-title: Subjects
+title: Interviewees
 layout: cloud
 permalink: /interviewees.html
 # Default subject page is configured in "_data/theme.yml"
