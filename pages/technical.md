@@ -8,7 +8,7 @@ permalink: /technical.html
 
 This digital collection consists of six oral history interviews (audio recordings), their corresponding transcripts, 1-5 objects that accompany each interview. These mixtures of interviews, transcripts, and object files are the content of the digital collection. Some of the interviewees are faculty at Indiana University, some farmers, some community members with trees on their property, and some are professionals who work with these fruits as part of their foodways-focused careers.
 
-This collection was built for those who are interested in learning about the different ways pawpaws and persimmons are used in material culture. This digital space was also envisioned to be a place where farmers can listen to stories about the growing, grafting, and cultivation processes that their peers utilize in their own efforts of cultivation. Some interviews will also touch on folkways related to pawpaws and persimmons, and these recordings could be of interest to those interested in foodways folklore. With further development, this collection could be built into a learning commons about native foodways. The oral histories highlight multiple perspectives and relationships to the fruits, making it a landing site for an audience with a plethora of interests and specialties as they relate to pawpaws and persimmons. 
+This collection was designed by Madison Cissell, a student of folklore and library science who has research interests in pawpaws and persimmons, specifically their communities of cultivation and use. The collection was designed for those who are interested in learning about the different ways pawpaws and persimmons are used in material culture. This digital space was also envisioned to be a place where farmers can listen to stories about the growing, grafting, and cultivation processes that their peers utilize in their own efforts of cultivation. Some interviews will also touch on folkways related to pawpaws and persimmons, and these recordings could be of interest to those interested in foodways folklore. With further development, this collection could be built into a learning commons about native foodways. The oral histories highlight multiple perspectives and relationships to the fruits, making it a landing site for an audience with a plethora of interests and specialties as they relate to pawpaws and persimmons. 
 
 Although pawpaws and persimmons are known colloquially throughout southern Indiana and neighboring Kentucky and Ohio, these fruits are widely unknown on a national and international level (except for those familiar with the Asian persimmon). Even folks who reside in the Ohio Valley may have a basic understanding of the fruits and their flavor, not many are privvy to the folklore and lifeways of those who interact with the fruits. I was first introduced to pawpaws by my grandfather, who grows them in a grove in Louisville, Kentucky. He has had success with his fruits, and their uniqueness and invisibility in American/Midwestern-Southern culture, despite their indigeneity to this very region, has driven me to create this commons for all things pawpaws and persimmons.
 
@@ -16,37 +16,31 @@ Although pawpaws and persimmons are known colloquially throughout southern India
 
 ## Required CollectionBuilder elements
 
-### Objectid
-<p> <ul>
-<li> Cardinality: 1 entry per record </li>
-<li> Obligation: Mandatory </li> 
-<li> Content guidelines: Entry should start with the name of the interviewer, followed by the type of file in parentheses. If there are multiple objects, the number assigned to the object will follow the object. The file extension should follow the naming convention. </li>
-<li> Applicable controlled vocabularies: N/A </li>
-<li> Mapping to Dublin Core: “Identifier” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/identifier/ </li>
-<li> Example: Darren Bender-Beauregard’s interview would be entered as “Darren_Bender-Beauregard_interview”. Darren’s second object would be entered as “Darren_Bender-Beauregard_object_2”. </li>
-</ul> </p>
+**Objectid**
+- Cardinality: 1 entry per record 
+- Obligation: Mandatory 
+- Content guidelines: Entry should start with the name of the interviewer, followed by the type of file in parentheses. If there are multiple objects, the number assigned to the object will follow the object. The file extension should follow the naming convention.
+- Applicable controlled vocabularies: N/A 
+- Mapping to Dublin Core: “Identifier” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/identifier/ 
+Example: Darren Bender-Beauregard’s interview would be entered as “Darren_Bender-Beauregard_interview”. Darren’s second object would be entered as “Darren_Bender-Beauregard_object_2”.
 
-### Filename 
-<p> <ul> 
-<li> Cardinality: 1 entry per record </li>
-<li> Obligation: Mandatory </li>
-<li> Content guidelines: The value must exactly match the actual filename of the file in the “objects” directory with the appropriate file extension given the format of the file.  </li>
-<li> Applicable controlled vocabularies: N/A </li>
-<li> Mapping to Dublin Core: “Identifier” 	https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/identifier/
-<li> Example: “Darren_Bender-Beauregard_interview.mp3” for Darren’s interview referenced above. </li> 
-</ul> </p>
+**Filename** 
+- Cardinality: 1 entry per record
+- Obligation: Mandatory 
+- Content guidelines: The value must exactly match the actual filename of the file in the “objects” directory with the appropriate file extension given the format of the file.
+- Applicable controlled vocabularies: N/A 
+- Mapping to Dublin Core: “Identifier” 	https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/identifier/
+Example: “Darren_Bender-Beauregard_interview.mp3” for Darren’s interview referenced above.
 
-### Title
-<p> <ul>
-<li> Cardinality: 1 entry per record </li>
-<li> Obligation: Mandatory </li>
-<li> Content guidelines: Entry should be the interviewee’s name unless partial or full anonymity is requested. </li>
-<li> Applicable controlled vocabularies: N/A </li>
-<li> Mapping to Dublin Core: “Title” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/title/ </li>
-<li> Example: Darren Bender-Beauregard interview </li> 
-</ul> </p>
+**Title**
+- Cardinality: 1 entry per record
+- Obligation: Mandatory 
+- Content guidelines: Entry should be the interviewee’s name unless partial or full anonymity is requested. 
+- Applicable controlled vocabularies: N/A 
+- Mapping to Dublin Core: “Title” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/title/ 
+- Example: Darren Bender-Beauregard interview 
 
-### Format  
+**Format** 
 <li> Cardinality: 1 entry per record </li>
 <li> Obligation: Mandatory </li>
 <li> Content guidelines: This field indicates the item’s media type, which will vary depending on if it is an interview, transcript, or image. Format will follow a controlled vocabulary, which will utilize a list of Internet Media Types provided by Dublin Core. </li>
