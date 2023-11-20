@@ -21,9 +21,16 @@ home-banner-image-position: # Default is center
 browse-buttons: false # true/false, adds previous/next arrows to item pages
 
 ##########
+# INTERVIEWEES PAGE
+#
+interviewees-fields: interviewee
+interviewees-min: 1
+interviewee-stopwords: #
+
+##########
 # SUBJECTS PAGE
 #
-subjects-fields: "interviewee, subject" # set the field to be featured in the cloud (if left blank, none will be generated)
+subjects-fields: subject # set the field to be featured in the cloud (if left blank, none will be generated)
 subjects-min: 1 # min size for subject cloud, too many terms = slow load time!
 subjects-stopwords: # # set of subjects separated by ;, e.g. boxers;boxing
 
