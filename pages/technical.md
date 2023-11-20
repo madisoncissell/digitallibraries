@@ -17,28 +17,34 @@ Although pawpaws and persimmons are known colloquially throughout southern India
 ## Required CollectionBuilder elements
 
 ### Objectid
+<p> <ul>
 <li> Cardinality: 1 entry per record </li>
 <li> Obligation: Mandatory </li> 
 <li> Content guidelines: Entry should start with the name of the interviewer, followed by the type of file in parentheses. If there are multiple objects, the number assigned to the object will follow the object. The file extension should follow the naming convention. </li>
 <li> Applicable controlled vocabularies: N/A </li>
 <li> Mapping to Dublin Core: “Identifier” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/identifier/ </li>
 <li> Example: Darren Bender-Beauregard’s interview would be entered as “Darren_Bender-Beauregard_interview”. Darren’s second object would be entered as “Darren_Bender-Beauregard_object_2”. </li>
+</ul> </p>
 
 ### Filename 
+<p> <ul> 
 <li> Cardinality: 1 entry per record </li>
 <li> Obligation: Mandatory </li>
 <li> Content guidelines: The value must exactly match the actual filename of the file in the “objects” directory with the appropriate file extension given the format of the file.  </li>
 <li> Applicable controlled vocabularies: N/A </li>
 <li> Mapping to Dublin Core: “Identifier” 	https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/identifier/
 <li> Example: “Darren_Bender-Beauregard_interview.mp3” for Darren’s interview referenced above. </li> 
+</ul> </p>
 
 ### Title
+<p> <ul>
 <li> Cardinality: 1 entry per record </li>
 <li> Obligation: Mandatory </li>
 <li> Content guidelines: Entry should be the interviewee’s name unless partial or full anonymity is requested. </li>
 <li> Applicable controlled vocabularies: N/A </li>
 <li> Mapping to Dublin Core: “Title” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/title/ </li>
 <li> Example: Darren Bender-Beauregard interview </li> 
+</ul> </p>
 
 ### Format  
 <li> Cardinality: 1 entry per record </li>
