@@ -24,7 +24,7 @@ Although pawpaws and persimmons are known colloquially throughout southern India
 <li> Applicable controlled vocabularies: N/A </li>
 <li> Mapping to Dublin Core: “Identifier” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/identifier/ </li>
 <li> Example: Darren Bender-Beauregard’s interview would be entered as “Darren_Bender-Beauregard_interview”. Darren’s second object would be entered as “Darren_Bender-Beauregard_object_2”. </li>
-</ul>
+<ul/>
 
 ### Filename 
 <ul>
@@ -34,7 +34,7 @@ Although pawpaws and persimmons are known colloquially throughout southern India
 <li> Applicable controlled vocabularies: N/A </li>
 <li> Mapping to Dublin Core: “Identifier” 	https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/identifier/
 <li> Example: “Darren_Bender-Beauregard_interview.mp3” for Darren’s interview referenced above. </li>
-</ul>  
+<ul/>  
 
 ### Title
 <ul> 
@@ -44,7 +44,7 @@ Although pawpaws and persimmons are known colloquially throughout southern India
 <li> Applicable controlled vocabularies: N/A </li>
 <li> Mapping to Dublin Core: “Title” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/title/ </li>
 <li> Example: Darren Bender-Beauregard interview </li>
-</ul>  
+<ul/>  
 
 ### Format  
 <ul>
@@ -54,7 +54,7 @@ Although pawpaws and persimmons are known colloquially throughout southern India
 <li> Applicable controlled vocabularies: Internet Media Types (MIME). Common values for this collection will be: audio/mp3; image/jpg, or application/pdf. </li>
 <li> Mapping to Dublin Core: “Format” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/format/ </li>
 <li> Example: audio/mp3 </li>
-</ul>  
+<ul/>  
 
 ## CollectionBuilder visualization elements
 
@@ -66,7 +66,7 @@ Although pawpaws and persimmons are known colloquially throughout southern India
 <li> Applicable controlled vocabularies: Library of Congress subject headings </li>
 <li> Mapping to Dublin Core: “Subject” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/subject/ </li>
 <li> Example: pawpaws; persimmons; grafting; mennonite; network; knife; cellphone; homestead; farm; indiana. </li>
-</ul>  
+<ul/>  
 
 ### Map (latitude)
 <ul> 
@@ -76,7 +76,7 @@ Although pawpaws and persimmons are known colloquially throughout southern India
 <li> Applicable controlled vocabularies: N/A </li>	
 <li> Mapping to Dublin Core: “Location, Period, or Jurisdiction” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/LocationPeriodOrJurisdiction/  </li>
 <li> Example: 38.5562 </li>
-</ul>  
+<ul/>  
 
 ### Location
 <ul> 
@@ -86,7 +86,7 @@ Although pawpaws and persimmons are known colloquially throughout southern India
 <li> Applicable controlled vocabularies: N/A </li>
 <li> Mapping to Dublin Core: “Location, Period, or Jurisdiction” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/LocationPeriodOrJurisdiction/ </li>
 <li> Example: Paoli, IN </li>
-</ul>  
+<ul/>  
 
 ### Map (longitude)
 <ul>
@@ -96,7 +96,7 @@ Although pawpaws and persimmons are known colloquially throughout southern India
 <li> Applicable controlled vocabularies: N/A </li>
 <li> Mapping to Dublin Core: “Location, Period, or Jurisdiction” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/LocationPeriodOrJurisdiction/ </li>
 <li> Example: -86.4683  </li>
-</ul>  
+<ul/>  
 
 ## Optional CollectionBuilder elements
 
@@ -108,7 +108,7 @@ Although pawpaws and persimmons are known colloquially throughout southern India
 <li> Applicable controlled vocabularies: N/A </li>
 <li> Mapping to Dublin Core: “Description” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/description/ </li>
 <li> Example: Darren Bender-Beauregard provides a background on growing up Mennonite on the East Coast before attending Goshen College. He now resides in Paoli, Indiana on Brambleberry Farm, where is family has a homestead and sells pawpaw and persimmon seedlings. Darren describes his knowledge of pawpaws and persimmons, the grafting process, and his agricultural network. </li>
-</ul>  
+<ul/>  
 
 ### Interviewee: 
 <ul>
@@ -118,7 +118,7 @@ Although pawpaws and persimmons are known colloquially throughout southern India
 <li> Applicable controlled vocabularies: N/A </li>
 <li> Mapping to Dublin Core: “Contributor” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/contributor/ </li>
 <li> Example: Darren Bender-Beauregard </li>
-</ul>  
+<ul/>  
 
 ### Interviewer:
 <ul>
@@ -128,7 +128,7 @@ Although pawpaws and persimmons are known colloquially throughout southern India
 <li> Applicable controlled vocabularies: N/A  </li>
 <li> Mapping to Dublin Core: “Creator” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/creator/ </li>
 <li> Example: Madison Cissell </li> 
-</ul>  
+<ul/>  
 
 ## Documentation of all elements
 <table>
@@ -251,5 +251,5 @@ Although pawpaws and persimmons are known colloquially throughout southern India
 <td> "Creator"	</td>
 <td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/creator/ </td>
  <td> Madison Cissell </td>
-</tr>
-</table>
+<tr/>
+<table/>
