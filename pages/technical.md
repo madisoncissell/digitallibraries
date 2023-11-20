@@ -37,7 +37,7 @@ Example: “Darren_Bender-Beauregard_interview.mp3” for Darren’s interview r
 - Obligation: Mandatory 
 - Content guidelines: Entry should be the interviewee’s name unless partial or full anonymity is requested. 
 - Applicable controlled vocabularies: N/A 
-- Mapping to Dublin Core: “Title” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/title/ 
+- Mapping to Dublin Core: “Title” <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/title/"> Dublin Core Standards for "Title" </a> 
 - Example: Darren Bender-Beauregard interview 
 
 **Format** 
@@ -45,7 +45,7 @@ Example: “Darren_Bender-Beauregard_interview.mp3” for Darren’s interview r
 - Obligation: Mandatory
 - Content guidelines: This field indicates the item’s media type, which will vary depending on if it is an interview, transcript, or image. Format will follow a controlled vocabulary, which will utilize a list of Internet Media Types provided by Dublin Core.
 - Applicable controlled vocabularies: Internet Media Types (MIME). Common values for this collection will be: audio/mp3; image/jpg, or application/pdf.
-- Mapping to Dublin Core: “Format” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/format/
+- Mapping to Dublin Core: “Format” <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/format/"> Dublin Core Standards for "Format" </a>
 - Example: audio/mp3
 
 ## CollectionBuilder visualization elements
@@ -55,7 +55,7 @@ Example: “Darren_Bender-Beauregard_interview.mp3” for Darren’s interview r
 - Obligation: Mandatory
 - Content guidelines: These entries will be topics related to the item. This field allows for multiple subjects (up to 10), each should be separated by a semicolon (;). Subject entries should be selected using the Library of Congress subject headings, which is a controlled vocabulary.
 - Applicable controlled vocabularies: Library of Congress subject headings
-- Mapping to Dublin Core: “Subject” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/subject/
+- Mapping to Dublin Core: “Subject” <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/subject/"> Dublin Core Standards for "Subject" </a>
 - Example: pawpaws; persimmons; grafting; mennonite; network; knife; cellphone; homestead; farm; indiana. 
 
 **Map (latitude)**
@@ -63,7 +63,7 @@ Example: “Darren_Bender-Beauregard_interview.mp3” for Darren’s interview r
 - Obligation: Mandatory 
 - Content guidelines: A geographic coordinate of the interview location specified by the north-south position of the interview site.
 - Applicable controlled vocabularies: N/A	
-- Mapping to Dublin Core: “Location, Period, or Jurisdiction” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/LocationPeriodOrJurisdiction/
+- Mapping to Dublin Core: “Location, Period, or Jurisdiction” <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/LocationPeriodOrJurisdiction/"> Dublin Core Standards for “Location, Period, or Jurisdiction” </a> 
 - Example: 38.5562 
 
 **Location**
@@ -71,7 +71,7 @@ Example: “Darren_Bender-Beauregard_interview.mp3” for Darren’s interview r
 - Obligation: Mandatory
 - Content guidelines: The name of the city or town of the interview location, followed by the federally recognized two-letter state and territory abbreviation.
 - Applicable controlled vocabularies: N/A
-- Mapping to Dublin Core: “Location, Period, or Jurisdiction” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/LocationPeriodOrJurisdiction/
+- Mapping to Dublin Core: “Location, Period, or Jurisdiction” <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/LocationPeriodOrJurisdiction/"> Dublin Core Standards for “Location, Period, or Jurisdiction” </a> 
 - Example: Paoli, IN 
 
 **Map (longitude)**
@@ -79,7 +79,7 @@ Example: “Darren_Bender-Beauregard_interview.mp3” for Darren’s interview r
 - Obligation: Mandatory
 - Content guidelines: A geographic coordinate of the interview location specified by the east-west position of the interview site. </li>
 - Applicable controlled vocabularies: N/A 
-- Mapping to Dublin Core: “Location, Period, or Jurisdiction” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/LocationPeriodOrJurisdiction/ 
+- Mapping to Dublin Core: “Location, Period, or Jurisdiction” <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/LocationPeriodOrJurisdiction/"> Dublin Core Standards for “Location, Period, or Jurisdiction” </a> 
 - Example: -86.4683 
 
 ## Optional CollectionBuilder elements
@@ -89,7 +89,7 @@ Example: “Darren_Bender-Beauregard_interview.mp3” for Darren’s interview r
 - Obligation: Optional
 - Content guidelines: This field should be a brief summary/synopsis of the interview in 3-5 sentences. It should cover major points of the interview. If being used for an object, it should briefly describe the object and its significance.
 - Applicable controlled vocabularies: N/A 
-- Mapping to Dublin Core: “Description” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/description/ 
+- Mapping to Dublin Core: “Description” <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/description/"> Dublin Core Standards for "Description" </a>
 - Example: Darren Bender-Beauregard provides a background on growing up Mennonite on the East Coast before attending Goshen College. He now resides in Paoli, Indiana on Brambleberry Farm, where is family has a homestead and sells pawpaw and persimmon seedlings. Darren describes his knowledge of pawpaws and persimmons, the grafting process, and his agricultural network. 
 
 **Interviewee** 
@@ -97,7 +97,7 @@ Example: “Darren_Bender-Beauregard_interview.mp3” for Darren’s interview r
 - Obligation: Optional, but should be used for interview and transcript records. 
 - Content guidelines: This should be the interviewee’s full or preferred name. 
 - Applicable controlled vocabularies: N/A 
-- Mapping to Dublin Core: “Contributor” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/contributor/ 
+- Mapping to Dublin Core: “Contributor” <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/contributor/"> Dublin Core Standards for "Contributor" </a>  
 - Example: Darren Bender-Beauregard 
 
 **Interviewer**
@@ -105,7 +105,7 @@ Example: “Darren_Bender-Beauregard_interview.mp3” for Darren’s interview r
 - Obligation: Optional, but should be used for interview and transcript records. 
 - Content guidelines: This should be the interviewer’s full or preferred name. 
 - Applicable controlled vocabularies: N/A  
-- Mapping to Dublin Core: “Creator” https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/creator/ 
+- Mapping to Dublin Core: “Creator” <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/creator/"> Dublin Core Standards for "Creator" </a> 
 - Example: Madison Cissell  
 
 ## Documentation of all elements
