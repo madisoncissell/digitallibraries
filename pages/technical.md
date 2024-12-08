@@ -1,4 +1,4 @@
----
+--- 
 title: Technical Information
 layout: about
 permalink: /technical.html
@@ -22,36 +22,37 @@ I was first introduced to pawpaws by my grandfather, who grows them in a grove i
 **Objectid**
 - Cardinality: 1 entry per record 
 - Obligation: Mandatory 
-- Content guidelines: Entry should start with the name of the interviewer, followed by the type of file in parentheses. If there are multiple objects, the number assigned to the object will follow the object. The file extension should follow the naming convention.
+- Content guidelines: Entry should start with the project code, tpi (the pregnant image), followed by its assigned order in the collection.
 - Applicable controlled vocabularies: N/A 
 - Mapping to Dublin Core: “Identifier” <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/identifier/"> Dublin Core Standards for "Identifier" </a>
-Example: Darren Bender-Beauregard’s interview would be entered as “Darren_Bender-Beauregard_interview”. Darren’s second object would be entered as “Darren_Bender-Beauregard_object_2”.
+Example: The archive is organized by the envelopes that were mailed to Emily. The 10th item in the collection is a photograph. This photograph is the 8th photograph found in Envelope 1. This object's **id** would be **tpi010** since it is the 10th item in the collection.
 
 **Filename** 
 - Cardinality: 1 entry per record
 - Obligation: Mandatory 
-- Content guidelines: The value must exactly match the actual filename of the file in the “objects” directory with the appropriate file extension given the format of the file.
+- Content guidelines: Entry should start with the project code, tpo (the pregnant object), followed by its assigned order in the collection.The value must exactly match the actual filename of the file in the “objects” directory with the appropriate file extension given the format of the file.
 - Applicable controlled vocabularies: N/A 
 - Mapping to Dublin Core: “Identifier” <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/identifier/"> Dublin Core Standards for "Identifier" </a>
-Example: “Darren_Bender-Beauregard_interview.mp3” for Darren’s interview referenced above.
+Example: The archive is organized by the envelopes that were mailed to Emily. The 10th item in the collection is a photograph. This photograph is the 8th photograph found in Envelope 1. This object's **filename** would be **tpo010.jpg** since it is the 10th item in the collection.
+
 
 **Title**
 - Cardinality: 1 entry per record
 - Obligation: Mandatory 
-- Content guidelines: Entry should be the interviewee’s name unless partial or full anonymity is requested. 
+- Content guidelines: Entry should be the name of the object as it appears in the envelope. All items are titled as either an Envelope, Description, or Photo.  
 - Applicable controlled vocabularies: N/A 
 - Mapping to Dublin Core: “Title” <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/title/"> Dublin Core Standards for "Title" </a> 
-- Example: Darren Bender-Beauregard interview 
+- Example: The archive is organized by the envelopes that were mailed to Emily. The 10th item in the collection is a photograph. This photograph is the 8th photograph found in Envelope 1. This object's **title** would be **Photo 08** since it is the 8th photo in the collection.
 
 **Format** 
 - Cardinality: 1 entry per record
 - Obligation: Mandatory
-- Content guidelines: This field indicates the item’s media type, which will vary depending on if it is an interview, transcript, or image. Format will follow a controlled vocabulary, which will utilize a list of Internet Media Types provided by Dublin Core.
-- Applicable controlled vocabularies: Internet Media Types (MIME). Common values for this collection will be: audio/mp3; image/jpg, or application/pdf.
+- Content guidelines: This field indicates the item’s media type, which will vary depending on if it is a compound object or an image. Format will follow a controlled vocabulary, which will utilize a list of Internet Media Types provided by Dublin Core and the vocabulary for compound objects.
+- Applicable controlled vocabularies: Internet Media Types (MIME). Common values for this collection will be: audio/mp3; image/jpg, or application/pdf. All **images** in the collection will utilize **image/jpeg** as their format. All **compound objects** will utilize **compound_object** as their format. 
 - Mapping to Dublin Core: “Format” <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/format/"> Dublin Core Standards for "Format" </a>
 - Example: audio/mp3
 
-## CollectionBuilder visualization elements
+## CollectionBuilder visualization elements (DEMO)
 
 **Subjects (subject)**
 - Cardinality: Up to 10 entries per record.
@@ -85,7 +86,7 @@ Example: “Darren_Bender-Beauregard_interview.mp3” for Darren’s interview r
 - Mapping to Dublin Core: “Location, Period, or Jurisdiction” <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/LocationPeriodOrJurisdiction/"> Dublin Core Standards for “Location, Period, or Jurisdiction” </a> 
 - Example: -86.4683 
 
-## Optional CollectionBuilder elements
+## Optional CollectionBuilder elements (DEMO)
 
 **Description (Synopsis)**
 - Cardinality: 1 entry per record
@@ -109,128 +110,4 @@ Example: “Darren_Bender-Beauregard_interview.mp3” for Darren’s interview r
 - Content guidelines: This should be the interviewer’s full or preferred name. 
 - Applicable controlled vocabularies: N/A  
 - Mapping to Dublin Core: “Creator” <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/creator/"> Dublin Core Standards for "Creator" </a> 
-- Example: Madison Cissell  
-
-## Documentation of all elements
-<table>
-<tr>
-<th> Metadata Element </th>
-<th> Cardinality </th>
-<th> Obligation	</th>
-<th> Content Guidelines </th>
-<th> Applicable Controlled Vocabularies  </th>
-<th> Mapping to Dublin Core  </th>
-<th> Dublin Core Link </th>
-<th> Example </th>
-<tr/> 
-<tr>
-<td> Objectid </td>
-<td> 1 entry per record </td>
-<td> Mandatory </td>
-<td> Entry should start with the name of the interviewer, followed by the type of file in parentheses. If there are multiple objects, the number assigned to the object will follow the object. The file extension should follow the naming convention. 
-<td> N/A </td>
-<td> "Identifier"	</td>
-<td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/identifier/	</td>
-<td> Darren Bender-Beauregard’s interview would be entered as “Darren_Bender-Beauregard_interview”. Darren’s second object would be entered as “Darren_Bender-Beauregard_object_2” </td>
-<tr/>
-<tr>
-<td> Filename </td>
-<td> 1 entry per record	</td>
-<td> Mandatory	</td>
-<td> The value must exactly match the actual filename of the file in the “objects” directory	</td>
-<td> N/A </td>
-<td> "Identifier" </td>
-<td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/identifier/ </td>
-<td> “Darren_Bender-Beauregard_interview.mp3” for Darren’s interview referenced above. </td> 
-<tr/>
-<tr>
-<td> Title	</td>
-<td> 1 entry per record </td>
-<td> Mandatory	Entry should be the interviewee’s name unless partial or full anonymity is requested. </td>
-<td> N/A	</td>
-<td> "Title"	</td>
-<td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/title/	</td>
-<td> Darren Bender-Beauregard </td>
-<tr/>
-<tr> 
-<td> Format	</td>
-<td> 1 entry per record	</td>
-<td> Mandatory	</td>
-<td> This field indicates the item’s media type, which will vary depending on if it is an interview, transcript, or image. </td>
-<td> Format should follow controlled vocabulary where available. Can use the list of Internet Media Types provided by Dublin Core.	</td>
-<td> Internet Media Types (MIME). Common values for this collection will be: audio/mp3; image/jpg, or application/pdf. </td>
-<td> "Format"	</td>
-<td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/format/ </td>
-<td> audio/mp3 </td>
-<tr/>
-<tr> 
-<td> Subject </td>
-<td> Up to 10 entries per record </td>
-<td> Mandatory	</td>
-<td> These entries will be topics related to the item. This field allows for multiple subjects (up to 10), each should be separated by a semicolon (;). Subject entries should be selected using the Library of Congress subject headings. </td>
-<td> Library of Congress subject headings	</td>
-<td> "Subject" </td>
-<td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/subject/ </td>
-<td> pawpaws; persimmons; grafting; Mennonite; network; knife; cellphone; homestead; farm; Indiana. </td>
-<tr/>
-<tr> 
-<td> Latitude	</td>
-<td> 1 entry per record	</td>
-<td> Mandatory	</td>
-<td> A geographic coordinate of the interview location specified by the north-south position of the interview site. </td>
-<td> N/A	</td>
-<td> “Location, Period, or Jurisdiction”	</td>
-<td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/LocationPeriodOrJurisdiction/	</td>
-<td> 38.5562 </td>
-<tr/>
-<tr> 
-<td> Longitude	</td>
-<td> 1 entry per record </td>
-<td> Mandatory </td>
-<td> A geographic coordinate of the interview location specified by the east-west position of the interview site. </td>
-<td> N/A	</td>
-<td> “Location, Period, or Jurisdiction”	</td>
-<td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/LocationPeriodOrJurisdiction/	</td>
-<td> 86.4683 </td>
-<tr/>
-<tr>
-<td> Location	</td>
-<td> 1 entry per record </td>
-<td> Mandatory	</td>
-<td>The name of the city or town of the interview location, followed by the federally recognized two-letter state and territory abbreviation.	</td>
-<td> N/A	</td>
-<td> “Location, Period, or Jurisdiction” </td>
-<td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/LocationPeriodOrJurisdiction/	</td>
-<td> Paoli, IN </td>
-<tr/>
-<tr>
-<td> Description </td>	
-<td> 1 entry per record	</td>
-<td> Optional	</td>
-<td> This field should be a brief summary/synopsis of the interview in 3-5 sentences. It should cover major points of the interview. </td>
-<td> N/A	</td>
-<td> "Description"	</td>
-<td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/description/	</td>
-<td> Darren Bender-Beauregard provides a background on growing up Mennonite on the East Coast before attending Goshen College. He now resides in Paoli, Indiana on Brambleberry Farm, where is family has a homestead and sells pawpaw and persimmon seedlings. Darren describes his knowledge of pawpaws and persimmons, the grafting process, and his agricultural network. </td>
-<tr/>
-<tr> 
-<td> Interviewee	</td>
-<td> 1 entry per record </td>
-<td> Optional, but should be used for interview and transcript records.	</td> 
-<td> This should be the interviewee’s full or preferred name.	</td>
-<td> N/A	</td>
-<td> "Contributor"	</td>
-<td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/contributor/	</td>
-<td> Darren Bender-Beauregard </td>
-<tr/>
-<tr>
-<td> Interviewer	</td>
-<td> 1 entry per record	</td>
-<td> Optional, but should be used for interview and transcript records. </td>	
-<td> This should be the interviewer’s full or preferred name. </td>	
-<td> N/A	</td>
-<td> "Creator"	</td>
-<td> https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/creator/ </td>
- <td> Madison Cissell </td>
-<tr/>
-<table/>
+- Example: Madison Cissell 
